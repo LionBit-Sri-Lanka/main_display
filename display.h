@@ -10,6 +10,8 @@ Created : 2019 for LionBit Dev Board.
 #include <SPI.h>
 #include <Wire.h>
 #include <lionbit.h>
+#include <Adafruit_I2CDevice.h> // Add new I2c more info visit Adafruit 
+
 
   #define TFT_CS         27
   #define TFT_RST        33
